@@ -1,6 +1,8 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/image1.png";
+import IMG2 from "../../assets/IMG2.png";
+import IMG3 from "../../assets/IMG3.png"
 
 const data = [
   {
@@ -9,6 +11,20 @@ const data = [
     title: "Application",
     github: "https://github.com/lursmana/redBerry-Test/tree/Prod",
     demo: "https://angry-pike-619737.netlify.app/applicationForm",
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: "CryptoApp",
+    github: "https://github.com/lursmana/crypto-app",
+    demo: "https://eclectic-mochi-3e6c4e.netlify.app/",
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: "Travel Advisor",
+    github: "https://github.com/lursmana/Second-React-project",
+    demo: "https://prismatic-dolphin-23021a.netlify.app/",
   },
 ];
 
